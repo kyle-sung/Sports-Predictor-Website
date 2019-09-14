@@ -31,7 +31,7 @@ header{
 
 header li{
     display: inline;
-    padding: 0 20px 0 20px; /*top, right, bottom, left*/s
+    padding: 0 20px 0 20px; /*top, right, bottom, left*/
 }
 
 header nav{
