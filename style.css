@@ -1,0 +1,122 @@
+/*GLOBALS*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #313131;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.vidcontainer{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Navigation Bar*/
+header{
+    min-height: 65px;
+    width: 100%;
+    background-color: #242424;
+    position: fixed;
+    box-shadow: 0px 4px 8px 2px #0e0e0e;
+    z-index: 2;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px; /*top, right, bottom, left*/
+}
+
+header nav{
+    margin-top: 10px;
+    float: right;
+    list-style-type: none;
+}
+
+#branding{
+    float: left;
+}
+
+/*showcase1*/
+#showcase{
+    min-height: 100%;
+    /*background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/hill.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+#nflFilm{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    opacity: .75;
+}
+
+#showcase h1{
+    position: fixed;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#showcase h2{
+    position: fixed;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+/*feature1*/
+#feature1 .leftside{
+    max-width: 50%;
+    float: left;
+    margin-top: 6%;
+}
+
+#feature1 .rightside{
+    max-width: 50%;
+    float: left;
+    margin-top: 6%;
+}
+
+/*Feature2*/
+#feature2 .leftside{
+    max-width: 50%;
+    float: left;
+    margin-top: 6%;
+}
+
+#feature2 .rightside{
+    max-width: 50%;
+    float: right;
+    margin-top: 6%;
+}

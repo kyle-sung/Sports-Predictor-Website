@@ -1,0 +1,62 @@
+/*Navigation Bar*/
+nav a{
+    text-decoration: none;
+    color: #cc8400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#branding{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc8400;
+    font-size: 75%;
+    margin-left: 4%;
+    letter-spacing: 1px;
+}
+
+/*showcase1*/
+#showcase h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 600%;
+    color: rgb(255, 255, 255);
+}
+
+#showcase h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 160%;
+    color: white;
+}
+
+#showcase special{
+    color: yellow;
+}
+
+/*Feature1*/
+#feature1 h2{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 251, 0);
+    font-size: 300%;
+}
+
+#feature1 p{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(145, 145, 145);
+    font-size: 170%;
+}
+
+/*Feature2*/
+#feature2 h2{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 251, 0);
+    font-size: 300%;
+}
+
+#feature2 p{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(145, 145, 145);
+    font-size: 170%;
+}
