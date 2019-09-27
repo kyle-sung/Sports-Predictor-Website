@@ -12,8 +12,9 @@ nav a:hover{
 
 #branding{
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     color: #cc8400;
-    font-size: 75%;
+    font-size: 120%;
     margin-left: 4%;
     letter-spacing: 1px;
 }
@@ -59,4 +60,16 @@ nav a:hover{
     font-family: 'Work Sans', sans-serif;
     color: rgb(145, 145, 145);
     font-size: 170%;
+}
+
+/*Footer*/
+#footer #copywrite{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+    color: #cc8400;
+    letter-spacing: 2.5px;
+}
+
+#footer #branding{
+    font-size: 95%;
 }

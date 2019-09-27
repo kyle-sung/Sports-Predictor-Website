@@ -27,6 +27,10 @@ html{
     overflow: hidden;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 /*Navigation Bar*/
 header{
     min-height: 65px;
@@ -95,6 +99,11 @@ header nav{
     z-index: 1;
 }
 
+#showcase .button{
+    padding: 10px;
+    margin: 10%;
+}
+
 /*feature1*/
 #feature1 .leftside{
     max-width: 50%;
@@ -119,4 +128,19 @@ header nav{
     max-width: 50%;
     float: right;
     margin-top: 6%;
+}
+
+/*Footer*/
+#footer #branding{
+    float: left;
+}
+
+#footer #copywrite{
+    float: right;
+}
+
+#footer{
+    background-color: #242424;
+    padding: 20px;
+    margin-top: 30px;
 }
