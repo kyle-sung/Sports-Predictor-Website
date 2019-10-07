@@ -10,12 +10,12 @@ nav a:hover{
     color: rgb(255, 255, 255);
 }
 
-#branding{
-    font-family: Arial, Helvetica, sans-serif;
+#branding a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     color: #cc8400;
-    font-size: 120%;
-    margin-left: 4%;
+    font-size: 100%;
+    margin-left: 25%;
     letter-spacing: 1px;
 }
 
@@ -36,40 +36,41 @@ nav a:hover{
     color: yellow;
 }
 
-/*Feature1*/
-#feature1 h2{
+/*Box1*/
+#box1 #box1-box1 h2{
     font-family: 'Work Sans', sans-serif;
-    color: rgb(255, 251, 0);
-    font-size: 300%;
+    font-size: 230%;
+    color: #cc8400;
 }
 
-#feature1 p{
+#box1 #box1-box1 p{
     font-family: 'Work Sans', sans-serif;
-    color: rgb(145, 145, 145);
-    font-size: 170%;
+    font-size: 140%;
+    color: #A9A9A9;
 }
 
-/*Feature2*/
-#feature2 h2{
+/*Box2*/
+#box2 #box2-box1 h2{
     font-family: 'Work Sans', sans-serif;
-    color: rgb(255, 251, 0);
-    font-size: 300%;
+    font-size: 230%;
+    color: #cc8400;
 }
 
-#feature2 p{
+#box2 #box2-box1 p{
     font-family: 'Work Sans', sans-serif;
-    color: rgb(145, 145, 145);
-    font-size: 170%;
+    font-size: 140%;
+    color: #A9A9A9;
 }
 
 /*Footer*/
-#footer #copywrite{
+#footer #footer-branding{
     font-family: 'Work Sans', sans-serif;
     font-size: 100%;
     color: #cc8400;
-    letter-spacing: 2.5px;
 }
 
-#footer #branding{
-    font-size: 95%;
+#footer #copywrite{
+    font-size: 60%;
+    color: #cc8400;
+    font-family: 'Work Sans', sans-serif;
 }
