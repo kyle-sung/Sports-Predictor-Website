@@ -62,6 +62,23 @@ nav a:hover{
     color: #A9A9A9;
 }
 
+/*Box3*/
+#box3 #box3-box1 h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 350%;
+    color: black;
+}
+
+#box3 #box3-box1 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 150%;
+    color: rgb(129, 129, 129);
+}
+
+#box3 green{
+    color: rgb(2, 180, 2);
+}
+
 /*Footer*/
 #footer #footer-branding{
     font-family: 'Work Sans', sans-serif;
