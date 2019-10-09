@@ -120,16 +120,16 @@ header nav{
 }
 
 #box1 #box1-box1{
-    width: 50%;
+    width: 75%;
     float: right;
     text-align: left;
 }
 
 #box1 #box1-box2{
-    width: 50%;
+    width: 25%;
     float: left;
     text-align: center;
-    margin-top: 4.5%;
+    margin-top: 2.5%;
 }
 
 #box1:hover{
@@ -150,16 +150,16 @@ header nav{
 }
 
 #box2 #box2-box1{
-    width: 50%;
+    width: 75%;
     float: right;
     text-align: left;
 }
 
 #box2 #box2-box2{
-    width: 50%;
+    width: 25%;
     float: left;
     text-align: center;
-    margin-top: 4.5%;
+    margin-top: 2.5%;
 }
 
 #box2:hover{

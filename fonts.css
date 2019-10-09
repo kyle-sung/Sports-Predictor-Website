@@ -4,6 +4,7 @@ nav a{
     color: #cc8400;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 nav a:hover{
@@ -79,6 +80,40 @@ nav a:hover{
     color: rgb(2, 180, 2);
 }
 
+/*About section fonts*/
+#opening-statement #statement-box h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 300%;
+    color: white;
+}
+
+#opening-statement #statement-box p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120%;
+    color: rgb(129, 129, 129);
+}
+
+#opening-statement special{
+    color: yellow;
+}
+
+#team #statement-box h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 300%;
+    color: white;
+}
+
+#team #teambox2 h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 200%;
+    color: white;
+}
+
+#team #teambox2 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120%;
+    color: rgb(129, 129, 129);
+}
 /*Footer*/
 #footer #footer-branding{
     font-family: 'Work Sans', sans-serif;

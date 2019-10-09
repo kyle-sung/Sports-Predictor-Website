@@ -1,0 +1,17 @@
+#opening-statement{
+    margin-top: 4.8%;
+}
+
+#team{
+    margin-top: 4.8%;
+}
+
+#team #teambox1{
+    width: 30%;
+    float: left;
+}
+
+#team #teambox2{
+    width: 70%;
+    float: right;
+}
