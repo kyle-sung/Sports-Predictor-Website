@@ -1,17 +1,33 @@
 #opening-statement{
     margin-top: 4.8%;
+    background-color: #414141;
 }
 
 #team{
     margin-top: 4.8%;
 }
 
-#team #teambox1{
-    width: 30%;
-    float: left;
+#statement-box{
+    margin-bottom: 4%;
 }
 
-#team #teambox2{
-    width: 70%;
-    float: right;
+header{
+    min-height: 8%;
+    width: 100%;
+    background-color: #242424;
+    position: relative;
+    box-shadow: 0px 4px 8px 2px #0e0e0e;
+    z-index: 2;
+}
+
+img.align-left{
+    float: left;
+    margin-right: 12%;
+}
+
+.teambox{
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 5%;
 }
