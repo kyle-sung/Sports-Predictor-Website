@@ -22,7 +22,7 @@
     background-color: #494949;
     overflow: hidden;
     box-shadow: 0 8px 8px 4px #1b1b1b;
-    transition: .5s;
+    transition: .2s;
 }
 
 .gamebox:hover{
