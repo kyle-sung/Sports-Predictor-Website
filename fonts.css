@@ -97,6 +97,10 @@ nav a:hover{
     color: yellow;
 }
 
+#title special{
+    color: yellow;
+}
+
 #team #statement-box h1{
     font-family: 'Work Sans', sans-serif;
     font-size: 300%;
@@ -116,6 +120,31 @@ nav a:hover{
 }
 
 #team special{
+    color: yellow;
+}
+
+/*weekly predictions fonts*/
+#title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 400%;
+    color: white;
+}
+
+#title p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#matchup{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 150%;
+    color: white;
+}
+
+#percentage{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 400%;
     color: yellow;
 }
 

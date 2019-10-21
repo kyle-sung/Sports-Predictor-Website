@@ -1,0 +1,35 @@
+#title{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#predictiontable{
+    background-color: #313131;
+    border-radius: 30px;
+    box-shadow: 0 8px 10px 8px #202020;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#predictiontable .gamebox{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #494949;
+    overflow: hidden;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .5s;
+}
+
+.gamebox:hover{
+    transform: scale(1.08);
+    box-shadow: 0 7px 10px 3px #00ff37;
+}
+
+#predictiontable .gamebox img{
+    width: 15%;
+}
