@@ -148,6 +148,36 @@ nav a:hover{
     color: yellow;
 }
 
+/*Overall Predictions section*/
+#teamstats h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 250%;
+    color: white;
+}
+
+#teamstats h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120%;
+    color: rgb(167, 167, 167);
+}
+
+#teamstats ranking{
+    color: yellow;
+    font-size: 200%;
+}
+
+#intro h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 250%;
+    color: white;
+}
+
+#intro p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120%;
+    color: rgb(129, 129, 129);
+}
+
 /*Footer*/
 #footer #footer-branding{
     font-family: 'Work Sans', sans-serif;

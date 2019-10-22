@@ -6,7 +6,8 @@
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="fonts.css" />
-        <link rel="stylesheet" type="text/css" href="style2.css"/>
+        <link rel="stylesheet" type="text/css" href="aboutstyle.css"/>
+        <link rel="stylesheet" type="text/css" href="overallstyle.css"/>
                 <!--This is important for responsive design-->
         <meta name="viewport" content="width=device-width">
             <title>Magic32</title> 
@@ -15,11 +16,12 @@
     <!--Navigation Bar-->
         <header>
             <div id="branding">
-                <h1>Magic32</h1>
+                <img src="images/logo.png" width="13.5%">
             </div>
             
             <nav>
                 <ul>
+                    <li><a href="home.html">home</a></li>
                     <li><a href="weekpredicition.html">weekly</a></li>
                     <li><a href="overallprediction.html">overall</a></li>
                     <li><a href="about.html">about</a></li>
@@ -27,10 +29,63 @@
             </nav>
         </header>
 
+        <section id="title">
+            <div class="container">
+                <h1><special>Magic32</special> Superbowl LIV Champion</h1>
+            </div>
+        </section>
+
+        <section id="intro">
+            <div class="specialcontainer">
+                <h1>The Overall Ranking</h1>
+                <p>Magic32 ranks the top 3 teams throughout the NFL that has the best odds of winning 
+                    Super Bowl LIV. This prediction is based on authentic next-gen data updated each 
+                    week.
+                </p>
+            </div>
+        </section>
+
+        <section id="mainbox">
+            <div class="container">
+
+                <div class="champteam">
+                    <div id="imagebox">
+                        <img src="images/patriots.png" width="85%">
+                    </div>
+                    <div id="teamstats">
+                        <h1><ranking>1. </ranking>New England Patriots</h1>
+                        <h2>Current Record: 6-0</h2>
+                    </div>
+                </div>
+
+                <div class="secondteam">
+                        <div id="imagebox">
+                            <img src="images/49ers.png" width="85%">
+                        </div>
+                        <div id="teamstats">
+                            <h1><ranking>2. </ranking>San Francisco 49ers</h1>
+                            <h2>Current Record: 7-0</h2>
+                        </div>
+                    </div>
+
+                    <div class="thirdteam">
+                            <div id="imagebox">
+                                <img src="images/saints.png" width="85%">
+                            </div>
+                            <div id="teamstats">
+                                <h1><ranking>3. </ranking>New Orleans Saints</h1>
+                                <h2>Current Record: 6-1</h2>
+                            </div>
+                        </div>
+
+            </div>
+        </section>
+        
+
         <section id="footer">
             <div class="container">
-                <div id="branding">
-                    <h1>Magic32</h1>
+                <div id="footer-branding">
+                    <img src="images/logo.png" width="13%">
                 </div>
                 <div id="copywrite">
                     <p>Built and Designed by Kyle, Andrew, and Caleb</p>

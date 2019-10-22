@@ -1,0 +1,102 @@
+.specialcontainer{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#whitebody{
+    background-color: rgb(211, 211, 211);
+}
+
+#title{
+    text-align: center;
+    margin-bottom: 3%;
+    background:  linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url(images/superbowl.jpg) no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 70%;
+    background-size: cover;
+}
+
+#title h1{
+    margin-top: 15%;
+    font-size: 500%;
+}
+
+#intro{
+    text-align: center;
+    background-color: #242424;
+    padding-bottom: 2%;
+}
+
+#mainbox{
+    background-color: #313131;
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+
+#imagebox{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#teamstats{
+    width: 75%;
+    float: right;
+    text-align: left;
+}
+
+.champteam{
+    width: 70%;
+    background-color: rgb(4, 90, 124);
+    overflow: hidden;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    margin-left: 15%;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .3s;
+}
+
+.secondteam{
+    width: 70%;
+    background-color: rgb(175, 99, 12);
+    overflow: hidden;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    margin-left: 15%;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .3s;
+}
+
+.thirdteam{
+    width: 70%;
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    margin-left: 15%;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .3s;
+}
+
+.champteam:hover{
+    transform: scale(1.08);
+}
+
+.secondteam:hover{
+    transform: scale(1.08);
+}
+
+.thirdteam:hover{
+    transform: scale(1.08);
+}

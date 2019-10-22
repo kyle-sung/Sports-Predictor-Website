@@ -4,32 +4,311 @@
 }
 
 #predictiontable{
-    background-color: #313131;
+    background-color: #353535;
     border-radius: 30px;
     box-shadow: 0 8px 10px 8px #202020;
     width: 90%;
     margin-left: 5%;
 }
 
-#predictiontable .gamebox{
+#predictiontable .gamebox1{
     float: left;
     width: 25%;
     margin-bottom: 5%;
     margin-top: 3%;
     margin-left: 6.5%;
     border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(90deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
     text-align: center;
-    background-color: #494949;
-    overflow: hidden;
     box-shadow: 0 8px 8px 4px #1b1b1b;
     transition: .2s;
 }
 
-.gamebox:hover{
-    transform: scale(1.08);
-    box-shadow: 0 7px 10px 3px #00ff37;
+#predictiontable .gamebox2{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(0,11,92);
+    background: linear-gradient(90deg, rgba(0,11,92,1) 9%, rgba(177,0,0,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
 }
 
-#predictiontable .gamebox img{
+#predictiontable .gamebox3{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(238,236,24);
+background: linear-gradient(90deg, rgba(238,236,24,1) 0%, rgba(168,35,35,1) 79%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox4{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(20,0,153);
+background: linear-gradient(90deg, rgba(20,0,153,1) 0%, rgba(133,135,238,1) 79%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox5{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(24,93,3);
+background: linear-gradient(90deg, rgba(24,93,3,1) 0%, rgba(83,130,176,1) 80%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox6{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(237,44,44);
+background: linear-gradient(90deg, rgba(237,44,44,1) 0%, rgba(5,0,97,1) 79%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox7{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox8{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox9{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox10{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox11{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox1{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox12{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox13{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox14{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: rgb(213,18,18);
+    background: linear-gradient(45deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+#predictiontable .gamebox15{
+    float: left;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    border-radius: 30px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    transition: .2s;
+}
+
+.gamebox1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox5:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox6:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox7:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox8:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox9:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox10:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox11:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox12:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox13:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox14:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+.gamebox15:hover{
+    transform: scale(1.1);
+    box-shadow: 0 7px 10px 3px #ffffff;
+}
+
+#predictiontable img{
     width: 35%;
 }
