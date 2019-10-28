@@ -6,11 +6,10 @@ Team: Kyle Sung, Andrew Ferrer, and Caleb Kim
 Give users the most accurate prediction of this season's NFL games
 
 ## Algorithm
-Collect sports analytics data from 5 different sources (espn, vegasinsider...) using webscrapping
-Average out win prediction outcomes among all sources to output unique accurate prediction of an upcoming NFL game
+Using NFLGame API, collect the average win percentage for each team throughout 9 years of regular season games (2009-2016) and compare that stat against other teams in the 2019 regular season matchups. Ultimately, we find the differential between the win perecentage.
 
 ## Tools Used
-VSCode IDE, repl.it web host, HTML, CSS, Javascript, cheerio.js framework
+VSCode IDE, repl.it web host, HTML, CSS, Javascript, Python, Vue.js, NFLGame API
 
 ## Media Credits
 NFL Films for showcase video
