@@ -24,7 +24,60 @@
     text-align: center;
     background-color: #242424;
     padding-bottom: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+}
+
+#menu{
+    text-align: center;
+}
+
+.dropbtn{
+    background-color: rgb(1, 167, 1);
+    color: white;
+    font-size: 150%;
+    margin-top: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    max-width: 100%;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    margin: 5%;
+    transition: .3s;
+    border-radius: 20px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 100%;
+    box-shadow: 0 8px 8px 4px #1b1b1b;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: rgb(0, 117, 0)
 }
 
 #predictiontable{

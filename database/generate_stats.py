@@ -6,6 +6,7 @@ starting_year = 2009
 ending_year = 2016
 teams = {}
 
+#loops through each year in the data and collects home score and addes to num of wins and losses
 for year in range(starting_year, ending_year + 1):
     print('Compiling stats for year ' + str(year))
     for game in nflgame.games(year):
@@ -25,6 +26,7 @@ for year in range(starting_year, ending_year + 1):
         elif score_home < score_away:
             teams[home]['num_losses'] += 1
 
+#calculates average win rate
 for team_name in teams:
     team = teams[team_name]
     team['avg_win_rate'] = team['num_wins'] / (team['num_wins'] + team['num_losses'])

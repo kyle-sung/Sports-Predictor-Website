@@ -40,18 +40,37 @@
                     <h1>How Does This Work?</h1>
                     <p>Magic32 uses the NFLGame API to collect historical NFL team data all
                         the way from the 2009 regular season. We then calculate based on our collect stats to
-                        determine the win outcome of the home team (first team listed in each box).
+                        determine the win outcome of each side of the matchup.
                     </p>
                 </div>
+                <section id="menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">Select Week</button>
+                        <div class="dropdown-content">
+                            <a href="#week-1">Week 1</a>
+                            <a href="#week-2">Week 2</a>
+                            <a href="#week-3">Week 3</a>
+                            <a href="#week-4">Week 4</a>
+                            <a href="#week-5">Week 5</a>
+                            <a href="#week-6">Week 6</a>
+                            <a href="#week-7">Week 7</a>
+                            <a href="#week-8">Week 8</a>
+                            <a href="#week-9">Week 9</a>
+                            <a href="#week-10">Week 10</a>
+                            <a href="#week-11">Week 11</a>
+                            <a href="#week-12">Week 12</a>
+                            <a href="#week-13">Week 13</a>
+                            <a href="#week-14">Week 14</a>
+                            <a href="#week-15">Week 15</a>
+                            <a href="#week-16">Week 16</a>
+                            <a href="#week-17">Week 17</a>
+                        </div>
+                    </div>
+                </section>
             </section>
 
         <section id="predictiontable">
             <div class="container" id="weekly-predictions">
-                <div id="links" style="position: sticky; top: 0">
-                    <a v-for="(week, index) in weeks" style="margin-top: 20%;" :href="`#week-${index+1}`">
-                        Week {{ index + 1}}// 
-                    </a>
-                </div>
                 <div id="table">
 
                     <!--This generates each week's headers and own id to match links-->
@@ -60,17 +79,20 @@
                             Week {{ index + 1}}
                         </h3>
 
-                        <div v-for="game in week" class="gamebox1" v-bind:style="{background: `linear-gradient(90deg, ${teamColors[game.home]} 0%, ${teamColors[game.away]} 100%)` }">
-                            <img :src="`images/${game.home}.png`">
+                        <div v-for="game in week" class="gamebox1" v-bind:style="{background: `linear-gradient(90deg, ${teamColors[game.away]} 0%, ${teamColors[game.home]} 100%)` }">
                             <img :src="`images/${game.away}.png`">
+                            <img :src="`images/${game.home}.png`">
                             <h1 id="matchup">
-                                {{ teamNames[game.home] }}
-                                vs
                                 {{ teamNames[game.away] }}
+                                @
+                                {{ teamNames[game.home] }}
                             </h1>
-                            <h1 id="percentage"> <!--ALGORITHM HERE-->
-                                {{ parseInt(game.homeWinRate * 100)}}%
-                                <!-- Num Wins {{ stats[game.home].num_wins }} -->
+                            <h1 id="percentage1"> <!--ALGORITHM HERE-->
+                               <!-- {{ parseInt(game.homeWinRate * 100)}}%-->
+                               {{ 100-(parseInt(((game.homeWinRate + (1-game.awayWinRate))/2)*100))}}%<!--This finds average between home win rate and away lose rate in percentage form-->
+                            </h1>
+                            <h1 id="percentage2">
+                                {{ parseInt(((game.homeWinRate + (1-game.awayWinRate))/2)*100)}}%
                             </h1>
                         </div>
         

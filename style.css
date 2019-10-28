@@ -191,6 +191,35 @@ header nav{
     margin-bottom: 6%;
 }
 
+/*Box 4*/
+#box4{
+    background-color: #8cc1d1;
+    width: 100%;
+}
+
+#box4 #box4-box1{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: %;
+}
+
+#box4 #box4-box2{
+    text-align: center;
+    margin-top: %;
+    margin-bottom: 6%;
+    margin-left: %;    
+}
+
+#box4 #box4-box3{
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 6%;
+}
+
+#box4 img{
+    border-radius: 30px;
+}
+
 /*Footer*/
 #footer{
     background-color: #242424;

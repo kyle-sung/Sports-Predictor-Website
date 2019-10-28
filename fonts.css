@@ -1,36 +1,9 @@
 /*For all hyperlinks global*/
-a{
-    text-decoration: none;
-}
-
-a:link{
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: white;
-}
-
-a:visited{
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: white;
-}
-
-a:hover{
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: rgb(1, 197, 1);
-}
-
-a:active{
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: green;
-}
 
 /*Navigation Bar*/
 nav a{
     text-decoration: none;
-    color: #cc8400;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     font-size: 25px;
@@ -109,6 +82,23 @@ nav a:hover{
     color: rgb(2, 180, 2);
 }
 
+/*Box4*/
+#box4 #box4-box1 h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+}
+
+#box4 #box4-box1 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 150%;
+    color: rgb(65, 86, 88);
+}
+
+#box4 yellow{
+    color: yellow;
+}
+
 /*About section fonts*/
 #opening-statement #statement-box h1{
     font-family: 'Work Sans', sans-serif;
@@ -171,10 +161,20 @@ nav a:hover{
     color: white;
 }
 
-#percentage{
+#percentage1{
     font-family: 'Work Sans', sans-serif;
-    font-size: 400%;
+    font-size: 300%;
     color: yellow;
+    float: left;
+    margin: 8%;
+}
+
+#percentage2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 300%;
+    color: yellow;
+    float: right;
+    margin: 8%;
 }
 
 /*Overall Predictions section*/
@@ -211,6 +211,14 @@ nav a:hover{
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
     color: black;
+}
+
+.dropbtn{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.dropdown-content a{
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*Footer*/

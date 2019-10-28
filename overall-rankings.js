@@ -54,13 +54,17 @@ function getSchedule() {
             var day = eid.substr(6, 2);
             console.log(attrs.h, stats[attrs.h])
             var home = attrs.h;
+            var away = attrs.v;
             if (home === 'LAC')
                 home = 'SD';
+            else if(away == 'LAC')
+                away = 'SD';
 			return {
 				date: new Date(year, month - 1, day),
 				home: home,
                 away: attrs.v,
                 homeWinRate: stats[home].avg_win_rate,
+                awayWinRate: stats[away].avg_win_rate,
             }
          }).filter(function(game) {
              return game.home && game.away;
