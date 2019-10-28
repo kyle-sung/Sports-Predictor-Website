@@ -1,6 +1,30 @@
+.specialcontainer{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
 #title{
     text-align: center;
     margin-bottom: 3%;
+    background:  linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url(images/footballplay.jpg) no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 70%;
+    background-size: 100%;
+}
+
+#title h1{
+    margin-top: 15%;
+    font-size: 500%;
+}
+
+#intro{
+    text-align: center;
+    background-color: #242424;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 #predictiontable{
@@ -16,7 +40,7 @@
     width: 25%;
     margin-bottom: 5%;
     margin-top: 3%;
-    margin-left: 6.5%;
+    margin-left: 6.25%;
     border-radius: 30px;
     background: rgb(213,18,18);
     background: linear-gradient(90deg, rgba(213,18,18,1) 0%, rgba(45,33,148,1) 100%);
@@ -28,6 +52,11 @@
 .gamebox1:hover{
     transform: scale(1.1);
     box-shadow: 0 7px 10px 3px #1d1d1d;
+}
+
+#links{
+    text-align: center;
+    letter-spacing: 8%;
 }
 
 #predictiontable img{

@@ -1,3 +1,32 @@
+/*For all hyperlinks global*/
+a{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(1, 197, 1);
+}
+
+a:active{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: green;
+}
+
 /*Navigation Bar*/
 nav a{
     text-decoration: none;
@@ -8,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(208, 255, 0);
 }
 
 #branding a{
@@ -176,6 +205,12 @@ nav a:hover{
     font-family: 'Work Sans', sans-serif;
     font-size: 120%;
     color: rgb(129, 129, 129);
+}
+
+#links{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
 }
 
 /*Footer*/

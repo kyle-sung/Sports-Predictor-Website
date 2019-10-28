@@ -32,3 +32,5 @@ window.stats = {"PIT": {"abbreviation": "PIT", "num_wins": 46, "num_losses": 18,
 "STL": {"abbreviation": "STL", "num_wins": 23, "num_losses": 33, "avg_win_rate": 0.4107142857142857}, 
 "LA": {"abbreviation": "LA", "num_wins": 1, "num_losses": 7, "avg_win_rate": 0.125}, 
 "JAX": {"abbreviation": "JAX", "num_wins": 2, "num_losses": 5, "avg_win_rate": 0.2857142857142857}}
+
+//Directly copied from the stat.json data generated from python generator using NFLGame API

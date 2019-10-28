@@ -32,21 +32,31 @@
         <section id="title">
             <div class="container">
                 <h1><special>Magic32</special> Weekly Predictions</h1>
-                <p>Our uniquely calculated outcomes for each NFL game for this upcoming week</p>
             </div>
         </section>
 
+        <section id="intro">
+                <div class="specialcontainer">
+                    <h1>How Does This Work?</h1>
+                    <p>Magic32 uses the NFLGame API to collect historical NFL team data all
+                        the way from the 2009 regular season. We then calculate based on our collect stats to
+                        determine the win outcome of the home team (first team listed in each box).
+                    </p>
+                </div>
+            </section>
+
         <section id="predictiontable">
             <div class="container" id="weekly-predictions">
-                <div style="position: sticky; top: 0">
-                    <a v-for="(week, index) in weeks" style="margin-top: 20px;" :href="`#week-${index+1}`">
-                        Week {{ index + 1}}
+                <div id="links" style="position: sticky; top: 0">
+                    <a v-for="(week, index) in weeks" style="margin-top: 20%;" :href="`#week-${index+1}`">
+                        Week {{ index + 1}}// 
                     </a>
                 </div>
                 <div id="table">
 
-                    <div v-for="(week, index) in weeks" style="margin-top: 20px; clear:both;" :id="`week-${index+1}`">
-                        <h3 style="float: left; width: 100%; font-family: 'Work Sans', sans-serif; color: white;">
+                    <!--This generates each week's headers and own id to match links-->
+                    <div v-for="(week, index) in weeks" style="margin-top: 20px; clear:both;" :id="`week-${index+1}`"> 
+                        <h3 style="float: left; width: 100%; font-family: 'Work Sans', sans-serif; color: yellow; font-size: 300%; text-align: center;">
                             Week {{ index + 1}}
                         </h3>
 
@@ -58,7 +68,7 @@
                                 vs
                                 {{ teamNames[game.away] }}
                             </h1>
-                            <h1 id="percentage">
+                            <h1 id="percentage"> <!--ALGORITHM HERE-->
                                 {{ parseInt(game.homeWinRate * 100)}}%
                                 <!-- Num Wins {{ stats[game.home].num_wins }} -->
                             </h1>
