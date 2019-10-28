@@ -37,9 +37,36 @@
         </section>
 
         <section id="predictiontable">
-            <div class="container">
+            <div class="container" id="weekly-predictions">
+                <div style="position: sticky; top: 0">
+                    <a v-for="(week, index) in weeks" style="margin-top: 20px;" :href="`#week-${index+1}`">
+                        Week {{ index + 1}}
+                    </a>
+                </div>
                 <div id="table">
 
+                    <div v-for="(week, index) in weeks" style="margin-top: 20px; clear:both;" :id="`week-${index+1}`">
+                        <h3 style="float: left; width: 100%; font-family: 'Work Sans', sans-serif; color: white;">
+                            Week {{ index + 1}}
+                        </h3>
+
+                        <div v-for="game in week" class="gamebox1" v-bind:style="{background: `linear-gradient(90deg, ${teamColors[game.home]} 0%, ${teamColors[game.away]} 100%)` }">
+                            <img :src="`images/${game.home}.png`">
+                            <img :src="`images/${game.away}.png`">
+                            <h1 id="matchup">
+                                {{ teamNames[game.home] }}
+                                vs
+                                {{ teamNames[game.away] }}
+                            </h1>
+                            <h1 id="percentage">
+                                {{ parseInt(game.homeWinRate * 100)}}%
+                                <!-- Num Wins {{ stats[game.home].num_wins }} -->
+                            </h1>
+                        </div>
+        
+                    </div>
+
+                    <!--
                     <div class="gamebox1">
                         <img src="images/redskins.png">
                         <img src="images/vikings.png">
@@ -144,7 +171,7 @@
                             <h1 id="matchup">Dolphins vs Steelers</h1>
                             <h1 id="percentage">62%</h1>
                     </div>
-
+                    -->
                 </div>
             </div>
         </section>
@@ -158,6 +185,11 @@
                     <p>Built and Designed by Kyle, Andrew, and Caleb</p>
                 </div>
         </section>
-
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="team-names.js"></script>
+        <script src="team-colors.js"></script>
+        <script src="stats.js"></script>
+        <script src="xml-to-json.js"></script>
+        <script src="overall-rankings.js"></script>
     </body>    
 </html>

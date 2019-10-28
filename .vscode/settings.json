@@ -2,5 +2,6 @@
     "python.pythonPath": "/usr/bin/python",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "terminal.external.osxExec": "Terminal.app"
 }

@@ -1,96 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="fonts.css" />
-        <link rel="stylesheet" type="text/css" href="aboutstyle.css"/>
-        <link rel="stylesheet" type="text/css" href="overallstyle.css"/>
-                <!--This is important for responsive design-->
-        <meta name="viewport" content="width=device-width">
-            <title>Magic32</title> 
-    </head>
-    <body>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts.css" />
+    <link rel="stylesheet" type="text/css" href="aboutstyle.css" />
+    <link rel="stylesheet" type="text/css" href="overallstyle.css" />
+    <!--This is important for responsive design-->
+    <meta name="viewport" content="width=device-width">
+    <title>Magic32</title>
+</head>
+
+<body>
     <!--Navigation Bar-->
-        <header>
-            <div id="branding">
-                <img src="images/logo.png" width="13.5%">
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="home.html">home</a></li>
-                    <li><a href="weekpredicition.html">weekly</a></li>
-                    <li><a href="overallprediction.html">overall</a></li>
-                    <li><a href="about.html">about</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <div id="branding">
+            <img src="images/logo.png" width="13.5%">
+        </div>
 
-        <section id="title">
-            <div class="container">
-                <h1><special>Magic32</special> Superbowl LIV Champion</h1>
-            </div>
-        </section>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="weekpredicition.html">weekly</a></li>
+                <li><a href="overallprediction.html">overall</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section id="intro">
-            <div class="specialcontainer">
-                <h1>The Overall Ranking</h1>
-                <p>Magic32 ranks the top 3 teams throughout the NFL that has the best odds of winning 
-                    Super Bowl LIV. This prediction is based on authentic next-gen data updated each 
-                    week.
-                </p>
-            </div>
-        </section>
+    <section id="title">
+        <div class="container">
+            <h1>
+                <special>Magic32</special> Superbowl LIV Champion
+            </h1>
+        </div>
+    </section>
 
-        <section id="mainbox">
-            <div class="container">
+    <section id="intro">
+        <div class="specialcontainer">
+            <h1>The Overall Ranking</h1>
+            <p>Magic32 ranks the top 3 teams throughout the NFL that has the best odds of winning
+                Super Bowl LIV. This prediction is based on authentic next-gen data updated each
+                week.
+            </p>
+        </div>
+    </section>
 
-                <div class="champteam">
-                    <div id="imagebox">
-                        <img src="images/patriots.png" width="85%">
-                    </div>
-                    <div id="teamstats">
-                        <h1><ranking>1. </ranking>New England Patriots</h1>
-                        <h2>Current Record: 6-0</h2>
-                    </div>
+    <section id="mainbox">
+        <div class="container" id="overall-ranking">
+
+            <div class="champteam">
+                <div id="imagebox">
+                    <img :src="`images/${teams[0].abbreviation}.png`" width="85%">
                 </div>
-
-                <div class="secondteam">
-                        <div id="imagebox">
-                            <img src="images/49ers.png" width="85%">
-                        </div>
-                        <div id="teamstats">
-                            <h1><ranking>2. </ranking>San Francisco 49ers</h1>
-                            <h2>Current Record: 7-0</h2>
-                        </div>
-                    </div>
-
-                    <div class="thirdteam">
-                            <div id="imagebox">
-                                <img src="images/saints.png" width="85%">
-                            </div>
-                            <div id="teamstats">
-                                <h1><ranking>3. </ranking>New Orleans Saints</h1>
-                                <h2>Current Record: 6-1</h2>
-                            </div>
-                        </div>
-
+                <div id="teamstats">
+                    <h1>
+                        <ranking>1. </ranking>{{ teams[0].name }}
+                    </h1>
+                    <h2>Current Record: {{ parseInt(teams[0].avg_win_rate * 100)}}%</h2>
+                </div>
             </div>
-        </section>
-        
 
-        <section id="footer">
-            <div class="container">
-                <div id="footer-branding">
-                    <img src="images/logo.png" width="13%">
+            <div class="secondteam">
+                <div id="imagebox">
+                    <img :src="`images/${teams[1].abbreviation}.png`" width="85%">
                 </div>
-                <div id="copywrite">
-                    <p>Built and Designed by Kyle, Andrew, and Caleb</p>
+                <div id="teamstats">
+                    <h1>
+                        <ranking>2. </ranking>{{ teams[1].name }}
+                    </h1>
+                    <h2>Current Record: {{ parseInt(teams[1].avg_win_rate * 100)}}%</h2>
                 </div>
-        </section>
+            </div>
 
-    </body>    
+            <div class="thirdteam">
+                <div id="imagebox">
+                    <img :src="`images/${teams[2].abbreviation}.png`" width="85%">
+                </div>
+                <div id="teamstats">
+                    <h1>
+                        <ranking>3. </ranking>{{ teams[2].name }}
+                    </h1>
+                    <h2>Current Record: {{ parseInt(teams[2].avg_win_rate * 100)}}%</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="container">
+            <div id="footer-branding">
+                <img src="images/logo.png" width="13%">
+            </div>
+            <div id="copywrite">
+                <p>Built and Designed by Kyle, Andrew, and Caleb</p>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="team-names.js"></script>
+    <script src="stats.js"></script>
+    <script src="overall-rankings.js"></script>
+</body>
+
 </html>
