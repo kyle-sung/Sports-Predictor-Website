@@ -22,6 +22,12 @@ nav a:hover{
     letter-spacing: 1px;
 }
 
+#branding h1{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    display: inline;
+}
+
 /*showcase1*/
 #showcase h1{
     font-family: 'Work Sans', sans-serif;

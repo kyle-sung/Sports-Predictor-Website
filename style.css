@@ -64,6 +64,11 @@ header nav{
     margin-left: 1.5%;
 }
 
+header h1{
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+}
+
 /*showcase1*/
 #showcase{
     min-height: 100%;
